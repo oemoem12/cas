@@ -14,7 +14,7 @@
 ### 方法一：使用 install.sh
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cas.git
+git clone https://github.com/oemoem12/cas.git
 cd cas
 bash install.sh
 ```
@@ -28,7 +28,7 @@ sudo dpkg -i cas_0.1.0_all.deb
 ### 方法三：使用 pip
 
 ```bash
-pip install git+https://github.com/YOUR_USERNAME/cas.git
+pip install git+https://github.com/oemoem12/cas.git
 ```
 
 ## 快速开始

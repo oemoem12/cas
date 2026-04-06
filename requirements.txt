@@ -1,0 +1,9 @@
+# Project requirements for caS
+fastapi
+uvicorn[standard]
+transformers
+torch
+accelerate
+huggingface-hub
+pydantic
+modelscope  # 魔塔社区

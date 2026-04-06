@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cas"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "transformers",
+    "torch",
+    "accelerate",
+    "huggingface-hub",
+    "pydantic",
+    "modelscope",
+    "gguf",
+    "protobuf",
+    "sentencepiece",
+]
+
+[tool.setuptools.packages.find]
+include = ["caS*"]
+
+[project.scripts]
+cas = "caS.cli:main"
